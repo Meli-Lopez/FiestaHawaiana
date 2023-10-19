@@ -55,4 +55,3 @@ for invitado in invitadosRechazados:
 print("\nInforme de usuarios que no han ingresado a la fiesta:")
 for invitado in invitadosRechazados:
     print(f"Nombre: {invitado['Nombre']}, Edad: {invitado['Edad']}, Razon de Rechazo: {', '.join(invitado['El motivo por el cual usted no puede ingresar a la fiesta es'])}")
-'''
